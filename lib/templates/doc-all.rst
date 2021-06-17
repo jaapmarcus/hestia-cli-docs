@@ -24,7 +24,7 @@
 {% endfor %}
 {% endif %}
 
-{{ cmd.desc.replace('*','`*`')  }}
+{{ cmd.desc }}
 
 
 {% endfor %}
